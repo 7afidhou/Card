@@ -6,21 +6,21 @@ import Gmail from "./assets/gmail.svg";
 function App() {
   return (
     <div className="flex items-center">
-            <div className=" w-full flex justify-between">
-          <a href="tel:+213777986379">
-        <img
-          src={Phone}
-          alt=""
-          className="w-12 border border-secondary rounded-full p-2"
-        />
-      </a>
-            <a href="mailto:abdelhafidhhaouari2@gmail.com">
-        <img
-          src={Gmail}
-          alt=""
-          className="w-12 border border-secondary rounded-full p-2"
-        />
-      </a>
+      <div className=" w-full flex justify-between">
+        <a href="tel:+213777986379">
+          <img
+            src={Phone}
+            alt=""
+            className="w-12 border border-secondary rounded-2xl p-2"
+          />
+        </a>
+        <a href="mailto:abdelhafidhhaouari2@gmail.com">
+          <img
+            src={Gmail}
+            alt=""
+            className="w-12 border border-secondary rounded-2xl p-2"
+          />
+        </a>
       </div>
       <div class="h-[450px] w-64 bg-primary fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center rounded-lg font-Gabarito">
         <img
@@ -61,8 +61,6 @@ function App() {
           Facebook
         </a>
       </div>
-
-    
     </div>
   );
 }
