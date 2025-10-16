@@ -7,14 +7,14 @@ function App() {
   return (
     <div className="flex items-center">
             <div className=" w-full flex justify-between">
-          <a href="mailto:abdelhafidhhaouari2@gmail.com">
+          <a href="tel:+213777986379">
         <img
           src={Phone}
           alt=""
           className="w-12 border border-secondary rounded-full p-2"
         />
       </a>
-            <a href="tel:+213777986379">
+            <a href="mailto:abdelhafidhhaouari2@gmail.com">
         <img
           src={Gmail}
           alt=""
